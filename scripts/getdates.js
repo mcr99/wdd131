@@ -4,8 +4,6 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 
 // last modified
 
-// document.getElementById("lastModified").innerHTML = new Date(Document.lastMod);
-
 
 alert(document.lastModified);
 
