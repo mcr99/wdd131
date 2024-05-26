@@ -46,8 +46,6 @@
     }
     .sun {
         height: 50px ;
-        padding: auto;
-
     }
 
     .weather {
@@ -67,7 +65,6 @@
         grid-column: 1/2;
         align-self: center;
         padding: 9px;
-        align-items: right;
     }
 
     .wp {
@@ -81,9 +78,6 @@
         align-items: center;
         margin: -15px 10px -10px -10px;
         background-color: black;
-        align-items: left;
-        padding-left: -100px;
-        
     }
 
     /* Footer */
