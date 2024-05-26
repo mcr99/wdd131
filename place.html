@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvin Canastuj">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Marvin Canastuj. presentation website .">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script defer src="scripts/place.js"></script>
+    <title>WDD 131 = Dynamic Web Fundamentals - Marvin Canastuj</title>
+</head>
+<body>
+    <header>
+        <h1>Atitlan</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture class="ap">
+                <source srcset="images/atitlan-large.webp" media="(min-width: 600px)">
+                <img class="atitlanImg" src="images/Atitlan.webp" alt="Atitlan" width="400" height="200">
+            </picture>
+        </div>
+        <section class="data">
+            <h1 class="d">Data</h1>
+            <h4 class="d1">Area: </h4> <h4 class="d12"> 130,1 km²</h4>
+            <h4 class="d1">Population: </h4> <h4 class="d12"> 49,631</h4>
+            <h4 class="d1">Capital: </h4> <h4 class="d12"> Guatemala City</h4>
+            <h4 class="d1">Languages: </h4> <h4 class="d12"> Spanish</h4>
+            <h4 class="d1">Currency: </h4> <h4 class="d12"> Quetzal</h4>
+            <h4 class="d1">Time Zone: </h4> <h4 class="d12"> GMT-6</h4>
+            <h4 class="d1">Calling Code: </h4> <h4 class="d12"> +502</h4>
+
+        </section>
+        <section class="weather">
+            <h1 class="w">Weather</h1>
+            <picture class="wp">
+                <source srcset="images/weather-large.webp" media="(min-width: 600px)">
+                <img class="sun" src="images/weather.svg" alt="Weather" widht="400" height="200px">
+            </picture>
+            <h4 class="d2">Temperature: </h4> <h4 class="d22">24°C</h4>
+            <h4 class="d2">Conditions: </h4> <h4 class="d22">Partly cloudy</h4>
+            <h4 class="d2">Wind: </h4> <h4 class="d22">2 km/h</h4>
+            <h4 class="d2">Wind Chill: </h4> <h4 class="d22">24°C</h4>
+
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Marvin Canastuj Guatemala</p>
+        <p id="lm">Last Modification:<span  id="lastModified" ></span></p>
+    </footer>
+</body>
+</html>

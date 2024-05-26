@@ -1,0 +1,95 @@
+@media (min-width: 600px) {
+
+    /* Header */
+
+    header {
+    }
+
+    /* Body */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .atitlanImg {
+        grid-column: 1/4;
+        grid-row: 1/3;
+        height: 100vh;
+        background-size: cover;
+        margin-top: 10px;
+        background-size:auto;
+    }
+
+
+    .d {
+        background-color: black;
+        color: azure;
+        margin-left: -10px;
+    }
+
+    .hero {
+        border-top: solid 0px;
+        border-bottom: solid 0px;
+        grid-column: 1/4;
+        grid-row: 1/3;
+
+    }
+
+    .data {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: azure;
+        opacity: 0.8;
+
+    }
+    .sun {
+        height: 50px ;
+        padding: auto;
+
+    }
+
+    .weather {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        border-top: solid 0px;
+        background-color: azure;
+        opacity: 0.8;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .w {
+        background-color: black;
+        color: azure;
+        margin-left: -10px;
+        grid-column: 1/2;
+        align-self: center;
+        padding: 9px;
+        align-items: right;
+    }
+
+    .wp {
+        grid-column: 2/3;
+        align-items: center;
+        align-self: center;
+        padding-top: 10px;
+    }
+
+    .sun {
+        align-items: center;
+        margin: -15px 10px -10px -10px;
+        background-color: black;
+        align-items: left;
+        padding-left: -100px;
+        
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 0px;
+    }
+    
+}
