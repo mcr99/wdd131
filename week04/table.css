@@ -1,0 +1,38 @@
+thead {
+    background-color: rgb(37, 37, 94);
+    color: azure;
+}
+
+tbody th, tbody td{
+    border: 1px solid rgb(166, 165, 165);
+    text-align: center;
+    padding: 10px;
+}
+
+th:nth-of-type(2) {
+    background-color: #40406e;
+}
+
+th:nth-of-type(3) {
+    background-color: rgb(64, 64, 110);
+}
+
+th:nth-of-type(4) {
+    background-color: rgb(64, 64, 110);
+}
+
+thead th, thead td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(2){
+    background-color: rgb(234, 234, 252);
+}
+
+caption {
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+}

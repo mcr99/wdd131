@@ -1,0 +1,35 @@
+header {
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    margin:  0px -10px ;
+    padding: 5px;
+}
+
+main {
+    display: block;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: blue;
+    color:azure;
+    text-align: center;
+    margin: 0px -10px ;
+    padding: 5px;
+}
