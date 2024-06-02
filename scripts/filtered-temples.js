@@ -118,11 +118,6 @@ temples.forEach(temple => {
     const card = document.createElement("div");
     card.className = "temple-cards";
 
-    const img = document.createElement("img");
-    img.src = temple.imageUrl;
-    img.alt = temple.templeName;
-    img.loading = "lazy";
-
     const name = document.createElement("h2");
     name.textContent = temple.templeName;
 
@@ -135,11 +130,16 @@ temples.forEach(temple => {
     const area = document.createElement("p");
     area.textContent = `Area: ${temple.area} sq. ft.`;
 
-    card.appendChild(img);
+    const img = document.createElement("img");
+    img.src = temple.imageUrl;
+    img.alt = temple.templeName;
+    img.loading = "lazy";
+
     card.appendChild(name);
     card.appendChild(location);
     card.appendChild(dedicated);
     card.appendChild(area);
+    card.appendChild(img);
 
     container.appendChild(card);
 })
