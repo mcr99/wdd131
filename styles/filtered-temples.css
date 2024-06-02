@@ -13,6 +13,12 @@ body{
 
 /* Header */
 
+button {
+    background-color: rgb(39, 58, 99);
+    border: none;
+    color: azure;
+}
+
 header{
     background-color: rgb(39, 58, 99);
     color: azure;
@@ -33,7 +39,7 @@ nav li:hover {
     border: 1px solid #fff;
 }
 
-.menu {
+.chome, .cold, .cnew, .clarge, .csmall{
     color:azure;
 }
 
@@ -45,27 +51,6 @@ li {
     text-align: center;
     justify-content: center;
 }
-
-
-/* cards 
-#temple-cards {
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #eaeaea;
-}
-
-#temple-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-*/
-
 
 #temple-cards {
     display: grid;

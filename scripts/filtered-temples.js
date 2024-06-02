@@ -113,8 +113,8 @@ const temples = [
   ];
 
 const container = document.getElementById("temple-cards");
-
-temples.forEach(temple => {
+// Function to create temple card
+function createTempleCard(temple) {
     const card = document.createElement("div");
     card.className = "temple-cards";
 
@@ -141,5 +141,48 @@ temples.forEach(temple => {
     card.appendChild(area);
     card.appendChild(img);
 
+    return card;
+}
+
+// Loop through temples array and create cards
+temples.forEach(temple => {
+    const card = createTempleCard(temple);
     container.appendChild(card);
-})
+});
+
+// next
+
+
+function displayTemples(filteredTemples) {
+    container.innerHTML = ''; // Clear existing temples
+    filteredTemples.forEach(temple => {
+      const card = createTempleCard(temple);
+      container.appendChild(card);
+    });
+  }
+  
+  function filterTemples(criteria) {
+    let filteredTemples = [];
+    switch (criteria) {
+      case 'old':
+        filteredTemples = temples.filter(temple => new Date(temple.dedicated) < new Date('1900-01-01'));
+        break;
+      case 'new':
+        filteredTemples = temples.filter(temple => new Date(temple.dedicated) > new Date('2000-01-01'));
+        break;
+      case 'large':
+        filteredTemples = temples.filter(temple => temple.area > 90000);
+        break;
+      case 'small':
+        filteredTemples = temples.filter(temple => temple.area < 10000);
+        break;
+      case 'home':
+      default:
+        filteredTemples = temples;
+        break;
+    }
+    displayTemples(filteredTemples);
+  }
+  
+  // Display all temples by default on page load
+  displayTemples(temples);

@@ -15,13 +15,21 @@
         <h3>Temple Album</h3>
         <button id="hamb"></button>
         <nav class="hm">
-            <ul>
-                <li><a class="menu" href="">Home</a></li>
-                <li><a class="menu" href="">Old</a></li>
-                <li><a class="menu" href="">New</a> </li>
-                <li><a class="menu" href="">Large</a> </li>
-                <li><a class="menu" href="">Small</a> </li>
+<!--            <ul>
+                <li class="h"><a class="menu" href="">Home</a></li>
+                <li class="o"><a class="menu" href="">Old</a></li>
+                <li class="n"><a class="menu" href="">New</a> </li>
+                <li class="l"><a class="menu" href="">Large</a> </li>
+                <li class="s"><a class="menu" href="">Small</a> </li>
             </ul>
+        -->
+        <div id="navigation">
+            <button onclick="filterTemples('home')">Home</button>
+            <button onclick="filterTemples('old')">Old</button>
+            <button onclick="filterTemples('new')">New</button>
+            <button onclick="filterTemples('large')">Large</button>
+            <button onclick="filterTemples('small')">Small</button>
+        </div>
         </nav>
     </header>
     <main>
