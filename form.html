@@ -8,7 +8,7 @@
     <script defer src="scripts/form.js" ></script>
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/form-large.css">
-    <title>Form</title>
+    <title>Product Review</title>
 </head>
 <body>
     <header>
@@ -17,10 +17,10 @@
     <main>
         <form method="get" action="review.html" class="rev">
             <fieldset>
+                <div class="pn">Product Name </div>
                 <label> 
-                    <div class="pn">Product Name </div>
                     <select name="subject" id="productName" required>
-                     <option value="SelectProduct" disabled selected>Select a Product</option>
+                     <option value="" disabled selected>Select a Product</option>
 <!--                        <option value="Tablet">Tablet</option>
                         <option value="Computer">Computer</option>
                         <option value="Phone">Phone</option>
@@ -49,7 +49,8 @@
                 <label class="cata"> <input type="checkbox" name="Design" value="yes">Design</label>
 
                 <div>Written Review <span class="optional">(Optional)</span></div>
-                <label> <input class="written" type="textarea" name="review"> </label>
+
+                <label> <textarea class="written" name="review" ></textarea> </label>
                 <div>Your Name <span class="optional">(Optional)</span></div>
                 <label> <input class="name" type="text" name="name"> </label>
 
