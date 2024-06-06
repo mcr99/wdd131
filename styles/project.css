@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&family=Rubik:ital,wght@1,400;1,600&display=swap');
+
+body {
+    font-family: 'Roboto mono','Roboto slab', 'Roboto ital' ;
+}
+
+/* Header */
+
+header {
+    background-color: #003566;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin: -10px -10px 0px -10px ;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 20px;
+}
+
+.projectHtml{
+    color: azure;
+    padding: 10px;
+    text-align: center;
+    grid-column: 3/4;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.projectPlacesHtml {
+    grid-column: 4/5;
+    color: azure;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* Main */
+
+.imgplaces {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #003566;
+    color: azure;
+    text-align: center;
+    padding: 2px;
+    margin: 0px -10px -20px -10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+}
+
+#year {
+    grid-column: 1/2;
+}
+
+#lm {
+    grid-column: 1/2;
+    margin: 10px;
+}
+
+.contactUs {
+    margin: -10px 10px 10px 10px;
+    text-align:start;
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
