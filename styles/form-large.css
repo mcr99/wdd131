@@ -1,0 +1,64 @@
+@media (min-width: 500px){
+    .or {
+        align-items: center;
+        margin: 0px 6% ;
+    }
+
+    .star1 {
+        margin-left: 1%;
+    }
+    
+    .star2 {
+        margin-left: 19%;
+    }
+    
+    .star3 {
+        margin-left: 25%;
+    }
+    
+    .star4 {
+        margin-left: 30%;
+    }
+    
+    .star5 {
+        margin-left: 35%;
+    }
+    
+    .DOI {
+        width: 96%;
+    }
+
+    .written {
+        width: 96%;
+    }
+
+    .name {
+        width: 96%;
+    }
+
+    .sb {
+        width: 99.5%;
+    }
+    
+
+}
+
+
+@media (min-width: 1000px) {
+    .DOI {
+        width: 98%;
+    }
+
+    .written {
+        width: 98%;
+    }
+
+    .name {
+        width: 98%;
+    }
+
+    .sb {
+        width: 100%;
+    }
+
+}

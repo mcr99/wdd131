@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvin Canastuj">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Marvin Canastuj.">
+    <script defer src="scripts/form.js" ></script>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="rev">
+            <fieldset>
+                <label> 
+                    <div class="pn">Product Name </div>
+                    <select name="subject" id="productName" required>
+                     <option value="SelectProduct" disabled selected>Select a Product</option>
+<!--                        <option value="Tablet">Tablet</option>
+                        <option value="Computer">Computer</option>
+                        <option value="Phone">Phone</option>
+                        <option value="Iphone">Iphone</option>
+                        <option value="PC">PC</option>
+                        <option value="Ipad">Ipad</option>
+                        <option value="AppleWatct">Apple Watch</option>
+-->                       </select>
+                </label>
+                <div class="titleOR">Overall Rating</div>
+                <div class="overrat">
+                <label class="or">✰<input class="star1" type="radio" name="rating" value="onestart" required></label>
+                <label class="or">✰✰<input class="star2" type="radio" name="rating" value="twostart" required></label>
+                <label class="or">✰✰✰<input class="star3" type="radio" name="rating" value="threestart" required></label>
+                <label class="or">✰✰✰✰<input class="star4" type="radio" name="rating" value="fourstart" required></label> 
+                <label class="or">✰✰✰✰✰<input class="star5" type="radio" name="rating" value="fivestart" required></label>
+                </div>
+
+                <div>Date of Installation</div>
+                <label><input class="DOI" type="date" name="DateInstalation" required> </label>
+
+                <div>Which features did you find useful in the product? (Check all that apply)</div>
+                <label class="cata"> <input type="checkbox" name="Durability" value="yes">Durability</label>
+                <label class="cata"> <input type="checkbox" name="Ease of Use" value="yes">Ease of Use</label>
+                <label class="cata"> <input type="checkbox" name="Performance" value="yes">Performance</label>
+                <label class="cata"> <input type="checkbox" name="Design" value="yes">Design</label>
+
+                <div>Written Review <span class="optional">(Optional)</span></div>
+                <label> <input class="written" type="textarea" name="review"> </label>
+                <div>Your Name <span class="optional">(Optional)</span></div>
+                <label> <input class="name" type="text" name="name"> </label>
+
+                <input class="sb" type="submit" value="Post Review">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Marvin Canastuj Guatemala
+        </p>
+        <p id="lm">Last Modification:<span  id="lastModified" ></span></p>
+    </footer>
+</body>
+</html>
