@@ -55,6 +55,15 @@ nav {
     padding-top: 30px;
 }
 
+.imgplacesi{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 19%;
+    padding-top: 30px;
+}
+
 .antiguaT {
     padding-left: 18%;
     margin-top: -5px;
@@ -69,10 +78,66 @@ nav {
 .tikalT{
     padding-left: 42%;
     margin-top: -5px;
-    padding-bottom: 30px;
 }
 
 
+
+
+/* main Project Places file */
+.antTxt {
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: -10px;
+}
+
+.atitlanTxt{
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: -10px;
+}
+
+.tikalTxt{
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: -10px;
+}
+
+.thermometer {
+    width: 20px;
+    height: 20px;
+}
+
+.humidity {
+    width: 20px;
+    height: 20px;
+}
+
+.wind{
+    width: 20px;
+    height: 20px;
+}
+
+.tablew {
+    padding-left: 40%;
+    padding-bottom: 20px;
+}
+
+/* Contact us */
+.cuf{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left: 100px;
+
+}
+
+.cul {
+    padding-top: 10px;
+
+}
+
+.cubutton{
+    padding-top: 10px;
+}
 
 /* Footer */
 

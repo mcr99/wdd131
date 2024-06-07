@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvin Canastuj">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Marvin Canastuj.">
+    <script defer src="scripts/project.js" ></script>
+    <link rel="stylesheet" href="styles/project-places.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <title>WDD 131 Project Contact Us</title>
+</head>
+<body>
+    <header>
+        <a class="logo_link" href="project.html">
+            <img class="logo" src="images/airplane-ticket.png" alt="Agency" loading="lazy">
+        </a>
+        <nav>
+            <a class="projectHtml" href="project.html">Home</a>
+            <a class="projectPlacesHtml" href="projectPlaces.html">Places</a>
+        </nav>
+    </header>
+    <main>
+        <div></div>
+        <form class="cuf" action="/my-handling-form-page" method="post">
+          <div id="feedback"></div>
+          <ul>
+            <li class="cul">
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li class="cul">
+              <label for="email">Email:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li class="cul">
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="cubutton">
+              <button type="submit">Send your message</button>
+            </li>
+          </ul>
+          <p class="numberOf">Number Messages sent: <span class="norr"></span></p>
+        </form>
+        
+    </main>
+    <footer>
+        <p>©<span id="year"></span> Marvin Canastuj Guatemala
+        </p>
+        <p id="lm">Last Modification:<span  id="lastModified" ></span></p>
+        <a class="contactUs" href="contactUs.html">Contact Us</a>
+    </footer>
+</body>
+</html>

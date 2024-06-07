@@ -1,0 +1,135 @@
+@media (min-width: 600px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .imgplaces{
+        padding-left: 0px;
+        padding-top: 30px;
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .antiguaT {
+        padding-left: 25%;
+        margin-top: -5px;
+        font-size: 25px;
+    
+    }
+    
+    .atitlanT {
+        padding-left: 30%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+    
+    .tikalT{
+        padding-left: 35%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+    .tm{
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .td{
+        grid-column: 2/3;
+    }
+
+    .cuf{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 80px;
+    
+    }
+    
+    .cul {
+        padding-top: 10px;
+    
+    }
+    
+    .cubutton{
+        padding-top: 10px;
+    }
+
+    #feedback{
+        margin-top: -50px;
+    }
+
+    .numberOf{
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1200px){
+    .imgplaces{
+        padding-left: 0px;
+        padding-top: 30px;
+        margin: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .antiguaT {
+        padding-left: 8%;
+        margin-top: -5px;
+        font-size: 25px;
+    
+    }
+    
+    .atitlanT {
+        padding-left: 18%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+    
+    .tikalT{
+        padding-left: 32%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+
+    .antTxt {
+        padding-left: 1%;
+        padding-right: 20%;
+        margin-top: -10px;
+    }
+    
+    .atitlanTxt{
+        padding-left: 1%;
+        padding-right: 20%;
+        margin-top: -10px;
+    }
+    
+    .tikalTxt{
+        padding-left: 1%;
+        padding-right: 20%;
+        margin-top: -10px;
+    }
+
+    .tablew {
+        padding-left: 30%;
+        padding-bottom: 20px;
+    }
+
+    .antiguaT {
+        padding-left: 25%;
+        margin-top: -5px;
+        font-size: 25px;
+    
+    }
+    
+    .atitlanT {
+        padding-left: 30%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+    
+    .tikalT{
+        padding-left: 35%;
+        margin-top: -5px;
+        font-size: 25px;
+    }
+}

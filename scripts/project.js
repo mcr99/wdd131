@@ -20,3 +20,29 @@ let seconds = oLastModif.getSeconds().toString().padStart(2, "0");
 
 let formattedDate = `${month}/${day}/${year} ${hours}:${minutes}:${seconds}`;
 document.getElementById("lastModified").innerHTML = formattedDate;
+
+
+const feedbackElement = document.getElementById('feedback');
+const formElement = document.forms[0];
+formElement.addEventListener('submit', function(e) {
+    e.preventDefault();
+    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+    feedbackElement.style.display = "block";
+    document.body.classList.toggle('moveDown');
+});
+
+
+
+const visitDisplay = document.querySelector(".norr");
+
+let numVisits = Number(window.localStorage.getItem("numVisits")) || 0;
+
+if (numVisits !== 0) {
+	visitDisplay.textContent = numVisits;
+} else {
+	visitDisplay.textContent = `This is your first review! `;
+}
+
+numVisits++;
+
+localStorage.setItem("numVisits-ls", numVisits);
